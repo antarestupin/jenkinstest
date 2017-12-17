@@ -5,6 +5,8 @@ pipeline {
             steps {
                 sh 'echo "hello there"'
                 sh 'mvn --version'
+                sh 'ls'
+                sh 'ls -a'
             }
         }
     }
